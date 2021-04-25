@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: dev
+---
+server:
+  port: 8081
+spring:
+  profiles: dev
+  application:
+    name: logger
+---
+server:
+  port: 8082
+spring:
+  profiles: sit
+  application:
+    name: logger
